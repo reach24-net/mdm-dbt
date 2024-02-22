@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: mdm  # A logical name for your source
+    database: customer_mdm_production  # The database name (optional if the default database is used)
+    schema: public  # The schema name where your source tables/views are located
+    tables:
+      - name: monolith_tenants
